@@ -8,7 +8,7 @@
 # Usage 
 ## Fork the repo and Clone the repo
 ```sh
-    $ git clone git@github.com:<yourgitusername>/weather-app-api.git && cd Multi-Buildpack-appd-nodejs-sample
+    $ git clone git@github.com:<yourgitusername>/weather-app-api.git && cd weather-app-api
 ```
 Note: Change <yourgitusername> to your username
 
