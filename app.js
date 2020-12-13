@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000
 app.get('*', (req, resp) => {
     const place = req.query.place
     if(!place) {
-        return resp.send("Please provide the place, For example https://<host>:<port>?place=bangalore")
+        return resp.send("Please provide the place query string, For example https://$host$:$port$>?place=bangalore")
     }
     getCoordinates(place, (error, data) => {
         if(!error) {
